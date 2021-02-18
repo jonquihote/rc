@@ -2,7 +2,7 @@
 
 return PhpCsFixer\Config::create()
     ->setRules([
-        '@PSR2' => true,
+        '@PSR12' => true,
         '@PhpCsFixer' => true,
         'array_syntax' => [
             'syntax' => 'short',
